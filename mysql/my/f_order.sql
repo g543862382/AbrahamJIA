@@ -7,5 +7,5 @@ create table f_order
   create_date timestamp default current_timestamp
 );
 
-insert f_order(fid,tel) values(1,'17862856023'),(1,'15353378609')
+insert into f_order(fid,tel) values(1,'17862856023'),(1,'15353378609')
 select * from f_order;
